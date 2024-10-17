@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: clamp(28px, 10vw + 5rem,36px);
     font-weight: bold;
     text-align: center;
     margin: 40px 0 60px 0;
@@ -80,7 +80,7 @@ form {
 }
 
 .search-result a {
-    font-size: 16px;
+    font-size: clamp(10px, 10vw + 5rem, 16px);
     text-decoration: none;
     color: #333;
     display: block;
@@ -100,6 +100,24 @@ form {
     border-radius: 5px;
     cursor: pointer;
     display: none;
+}
+
+@media (max-width:768px){
+
+    .search-results{
+        padding: 20px;
+    }
 
 
+
+    .search-result{
+        width: 45%;
+    }
+}
+
+@media (max-width:480px){
+
+    .search-result{
+        width: 100%;
+    }
 }
