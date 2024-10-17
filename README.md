@@ -2,7 +2,7 @@
 
 
 ## Brief
-This is an image search app that uses the Unsplash API and an access token to practice JavaScript.In this app user can search any image in the search bar.
+This is an image search application that uses the Unsplash API and an access token to practice JavaScript.In this application user can search any image in the search bar.
 
 ## Built with:
 
