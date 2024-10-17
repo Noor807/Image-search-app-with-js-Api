@@ -10,15 +10,15 @@
 
 body {
     line-height: 1.6;
-    background-color: #f9f9f9; 
+    background-color:rgb(43, 43, 68); 
 }
 
 h1 {
     font-size: clamp(28px, 10vw + 5rem, 36px);
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     margin: 40px 0 60px 0;
-    color: #333; 
+    color:#fff; 
 }
 
 form {
@@ -40,7 +40,7 @@ form {
 
 #search-button {
     padding: 10px 20px;
-    background-color: #1b1c1c;
+    background-color: #666767;
     color: #fff;
     border: none;
     font-size: 18px;
@@ -95,7 +95,7 @@ form {
 }
 
 #show-more-button {
-    background-color: #1e1e1f;
+    background-color: #757576;
     font-size: 18px;
     border: none;
     padding: 10px 20px;
